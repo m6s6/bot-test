@@ -14,7 +14,6 @@ try:
     conn.close()
 except:
     pass
-
 def get_name(user_id):
     try:
         conn = sqlite3.connect('dt_bot.db')
